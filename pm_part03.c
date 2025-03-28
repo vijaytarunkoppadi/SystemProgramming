@@ -14,6 +14,6 @@ int main(){
 	printf("start of program\n");
 	system("ls");			//  create shell and execute the ls command
 	system("pwd");			//  create shell and execute the pwd command
-	printf("end of the program");
+	printf("end of the program\n");
 	return 0;
 }
