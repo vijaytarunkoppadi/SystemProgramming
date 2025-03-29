@@ -17,7 +17,7 @@ int main(){
 	int ret;
 	printf("Before fork call\n");
 	ret = fork();
-	if(ret){
+	if(ret == 0){
 	
 		printf("In child process  pid:%d ppid :%d\n",getpid(),getppid());
 		printf("a= %d b=%d\n",a*2,b*2);
